@@ -1,0 +1,29 @@
+body {
+    max-width: 1190px;
+    border: 1px solid;
+    margin: auto;
+    background-color: aquamarine;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    margin-top: 0;
+    padding-left: 0;
+    height: 3rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    list-style-type: none;
+    
+}   
+#inicio {
+    height: 22rem;
+    background-image: url(../imagens/imagem-ayrton-capacete.png);
+    background-size: 42rem;
+    background-repeat: no-repeat;
+    color: white;
+   
+
+
+}
