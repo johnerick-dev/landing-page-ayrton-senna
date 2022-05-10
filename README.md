@@ -1,17 +1,28 @@
 # Landing Page
 
-## Produção independente de landing page do piloto Ayrton Senna
+### Produção independente de landing page do piloto Ayrton Senna. Projeto realizado no intuito de consolidar o aprendizado no desenvolvimento web front end.
 
 ## Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+<p>Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
 - JavaScrip
+</p>
 
-## Projeto
+### Confira o resultado final acessando 
 
-Esse projeto foi construído para testar os conhecimentos obtidos até o momento
+![Imagem do site]()
 
-by John Erick
+## Visualização do site
+
+<p align="center">
+<img width="650" heidht="auto" src="">
+</p>
+
+## Demonstrando responsividade
+
+<p align="center">
+<img width="650" heidht="auto" src="">
+</p>
