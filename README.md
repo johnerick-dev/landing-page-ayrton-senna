@@ -9,9 +9,10 @@
 - HTML
 - CSS
 - JavaScrip
+- Bootstrap
 </p>
 
-### Confira o resultado final acessando 
+### Confira o resultado final acessando https://johnerick-dev.github.io/landing-page-ayrton-senna/
 
 ![Imagem do site]()
 
