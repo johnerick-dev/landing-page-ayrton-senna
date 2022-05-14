@@ -1,26 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+} 
 main {
     background-color: rgb(230, 230, 230);
 }
-.navegador {
+.dropdown-menu {
+    position:absolute;
+}
+.navegador, #navbarDropdown{
     text-decoration: none;
     margin-left: 1.5rem;
-    color: black;
+    color: white;
 }
 .frase {
-    max-width: 100%;
-    height: 30rem;
+    height: 35rem;
     background-image: url(../imagens/ayrton-capacete-fullhd.jpg);
     background-position: center;
     background-repeat: no-repeat; 
     padding: 2rem;
     color: white;
     font-size: 14pt;
+    margin-top: 5rem;
+}
+.navbar-brand img {
+    width: 80px;
+    height: auto;
 }
 img {
     max-width: 40rem;
-    width: 100%;
     height: auto;
-
 }
 
 footer {
