@@ -7,6 +7,10 @@ body {
 main {
     background-color: rgb(230, 230, 230);
 }
+img {
+    max-width: 40rem;
+    height: auto;
+}
 .dropdown-menu {
     position:absolute;
 }
@@ -29,11 +33,6 @@ main {
     width: 80px;
     height: auto;
 }
-img {
-    max-width: 40rem;
-    height: auto;
-}
-
 footer {
     display: flex;
     height: 5rem;

@@ -1,0 +1,13 @@
+#carouselExampleIndicators {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 550px;   
+}
+.carousel-item img {
+    height: 320px;
+    border-radius: 12px;
+    position: relative;
+}
