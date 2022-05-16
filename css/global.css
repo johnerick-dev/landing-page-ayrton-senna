@@ -35,9 +35,10 @@ img {
 }
 footer {
     display: flex;
-    height: 6rem;
+    height: 8rem;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 footer .fab {
     width: 15px;
