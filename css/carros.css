@@ -1,0 +1,10 @@
+.pista {
+    height: 35rem;
+    background-image: url(../imagens/ayrton-capacete-fullhd.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 2rem;
+    color: white;
+    font-size: 14pt;
+    margin-top: 5rem;
+}
