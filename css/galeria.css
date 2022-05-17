@@ -1,12 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 #carouselExampleIndicators {
     background-color: #cccccc;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 430px;   
+    height: 520px;   
 }
 .carousel-item img {
     height: 320px;
@@ -16,20 +20,17 @@
     margin: auto;
 }
 .card_img img{
-    width: 18rem;
-    
+    width: 18rem; 
 }
 main .container-fluid {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-
 }
 .container-fluid .d-flex.mt-4 img {
     height: 190px;
     box-shadow:  8px 12px 8px rgb(43, 43, 43);
-
 }
 
 

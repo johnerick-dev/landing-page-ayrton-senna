@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .pista {
     width: 40rem;
     height: 83rem;
@@ -8,7 +12,7 @@
     margin-top: 5rem;
 }
 .lista-carros {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 .carro-impar img{
     width: 20rem;
@@ -31,7 +35,7 @@
 aside img {
     width: 18rem;
     height: auto;
-    margin-top: 15rem;
+    margin-top: 37rem;
     position: fixed;
 }
 aside .carro-lateral-1 {
