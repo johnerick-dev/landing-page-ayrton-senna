@@ -1,10 +1,40 @@
 .pista {
-    height: 35rem;
-    background-image: url(../imagens/ayrton-capacete-fullhd.jpg);
+    width: 40rem;
+    height: 83rem;
+    margin: auto;
+    background-image: url(../imagens/asfalto2.0.jpg);
     background-position: center;
     background-repeat: no-repeat; 
-    padding: 2rem;
-    color: white;
-    font-size: 14pt;
     margin-top: 5rem;
 }
+.lista-carros {
+    padding-top: 1rem;
+}
+.carro-impar img{
+    width: 20rem;
+    border-top: 6px solid #fff;
+    border-left: 6px solid #fff;
+    border-right: 6px solid #fff;
+    padding: 12px;
+    margin-left: 15rem;
+}
+.carro-par img{
+    width: 20rem;
+    border-top: 6px solid #fff;
+    border-left: 6px solid #fff;
+    border-right: 6px solid #fff;
+    padding: 12px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+aside img {
+    width: 18rem;
+    height: auto;
+    margin-top: 15rem;
+    position: fixed;
+}
+aside .carro-lateral-1 {
+    margin-left: -19rem;
+}
+
