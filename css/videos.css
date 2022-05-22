@@ -1,0 +1,12 @@
+.videos {
+    padding-top: 8rem;
+    justify-content: center;
+    margin: auto;
+}
+.embed-responsive.embed-responsive-16by9{
+    display: flex;
+    width: 80rem;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 14pt;
+}
