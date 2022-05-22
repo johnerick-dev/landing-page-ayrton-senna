@@ -1,5 +1,11 @@
-.videos {
+h1 {
+    display: flex;
+    margin: auto;
     padding-top: 8rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+.videos {
     justify-content: center;
     margin: auto;
 }
