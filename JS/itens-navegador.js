@@ -1,4 +1,4 @@
-//Feito do botão de scroll top
+//Efeito do botão de scroll top
 function subirTela() {
     window.scrollTo({
         top: 0,
@@ -6,3 +6,12 @@ function subirTela() {
         behavior: 'smooth'
     });
 }
+function decidirBotaoScroll() {
+    if (window.scrollY === 0) {
+        document.querySelector('.botao').style.display = 'none';
+    } else {
+        document.querySelector('.botao').style.display = 'block';
+    }
+}
+
+window.addEventListener('scroll', decidirBotaoScroll)

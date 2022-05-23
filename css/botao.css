@@ -12,9 +12,13 @@
     border: solid rgb(5, 103, 231);
     text-decoration: none;
     cursor: pointer;
+    display: none;
 }
 .botao::after {
     content: "↑";
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 32px;
     font-weight: bold;
     color: aliceblue;
