@@ -9,14 +9,16 @@
     height: 50px;
     background-color: rgb(5, 103, 231);
     border-radius: 6px;
+    border: solid rgb(5, 103, 231);
     text-decoration: none;
+    cursor: pointer;
 }
 .botao::after {
     content: "↑";
     font-size: 32px;
     font-weight: bold;
     color: aliceblue;
-    transition: margin-top 250ms;
+    transition: margin-top 350ms;
 }
 .botao:hover::after {
     margin-top:-8px;
