@@ -1,4 +1,4 @@
-/*responsivo do index e nav de todas as pages*/
+/*responsivo do index e do nav de todas as pages*/
 @media (max-width: 1000px){
     .navbar.navbar-dark.bg-dark.fixed-top .container {
         display: flex;
