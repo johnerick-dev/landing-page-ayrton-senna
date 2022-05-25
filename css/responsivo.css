@@ -36,4 +36,26 @@
         width: 30rem;
     }
 }
+@media (max-width: 510px){
+    section .container .row.mt-5 .col .media img {
+        width: 20rem;
+        align-items: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 13rem;
+        margin: auto;
+    }
+    /*Ajuste de margens para compensar a inclusão de margem negativa direto no html (bootstrap)*/
+    footer #icon-assinatura { 
+        margin-right: -2rem;
+    }
+    footer #by-john {
+        margin-right: -4.5rem;
+    }
+    footer #icons-roda-pe {
+        margin-bottom: 1.5rem;
+    }
+}
 
