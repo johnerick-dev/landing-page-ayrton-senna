@@ -1,3 +1,4 @@
+/*responsivo do index e nav de todas as pages*/
 @media (max-width: 1000px){
     .navbar.navbar-dark.bg-dark.fixed-top .container {
         display: flex;
@@ -55,7 +56,41 @@
         margin-right: -4.5rem;
     }
     footer #icons-roda-pe {
+        margin-top: 1rem;
         margin-bottom: 1.5rem;
+    }
+}
+/*responsivo da page galeria de fotos*/
+@media (max-width: 1150px) {
+    main #carouselExampleIndicators #botao-carousel{
+    display: none;
+    }
+}
+@media (max-width: 960px){
+    #fotos-galeria .d-flex.mt-4{
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem;
+    }
+    #fotos-galeria .d-flex.mt-4 img {
+        width: 35rem;
+        height: auto;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }   
+}
+@media (max-width: 660px) {
+    #fotos-galeria .d-flex.mt-4 img {
+        width: 25rem;
+        height: auto;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+    main #carouselExampleIndicators {
+        padding: 0 20px;
     }
 }
 
