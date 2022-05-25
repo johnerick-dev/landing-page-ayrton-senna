@@ -1,0 +1,11 @@
+@media (max-width: 1000px){
+    .navbar.navbar-dark.bg-dark.fixed-top .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
