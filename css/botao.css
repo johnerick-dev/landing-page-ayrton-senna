@@ -1,3 +1,4 @@
+/*Botão de scroll top*/
 .botao {
     display: flex;
     justify-content: center;
@@ -26,4 +27,21 @@
 }
 .botao:hover::after {
     margin-top:-8px;
+}
+/*Botão de áudio*/
+.botao-audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    height: 25px;
+    padding: 1px;
+    border-radius: 14px;
+    background-color:  #222;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
 }

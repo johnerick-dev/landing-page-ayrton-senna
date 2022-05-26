@@ -27,3 +27,26 @@ window.onscroll = function() {
         }
     prevScrollpos = currentScrollPos;
 }
+
+//Efeito para abrir aplayer de audio
+function abrirPlayer() {
+    let player1 = document.querySelector('.botao-audio');
+
+    if (player1.style.width > "1px"){
+        document.querySelector('.botao-audio').style.width = "245px";
+    } else {
+        document.querySelector('.botao-audio').style.width = "90px";
+    }  
+}
+abrirPlayer();
+
+function fecharPlayer(){
+    let player2 = document.querySelector('.botao-audio');
+
+    if (player2.style.width = "245px"){
+        document.querySelector('.botao-audio').style.width = "90px";
+    } else {
+        document.querySelector('.botao-audio').style.width = "245px";
+    }
+}
+fecharPlayer();
