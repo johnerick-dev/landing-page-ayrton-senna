@@ -46,7 +46,7 @@
     }
 }
 /*responsivo da page galeria de fotos*/
-@media (max-width: 1150px) {
+@media (max-width: 1150px){
     main #carouselExampleIndicators #botao-carousel{
     display: none;
     }
@@ -65,7 +65,7 @@
         justify-content: center;
     }   
 }
-@media (max-width: 660px) {
+@media (max-width: 660px){
     #fotos-galeria .d-flex.mt-4 img {
         width: 25rem;
         height: auto;
@@ -79,7 +79,7 @@
     }
 }
 /*responsivo da page carros*/
-@media (max-width: 650px) {
+@media (max-width: 650px){
     section .pista {
         width: 100vw;
     }
@@ -120,7 +120,7 @@
         margin-right: 2rem;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1000px){
     main .videos {
         width: 100vw;   
     }
@@ -152,3 +152,19 @@
         height: auto;
     }
 }
+/*responsivo da page rivalidade*/
+@media (max-width: 730px){
+    main .rivalidade {
+        width: 80vw;
+    }
+    main .rivalidade img {
+        width: 85%;
+        height: auto;
+    }
+}
+@media (max-width: 425px){
+    main .rivalidade {
+        padding-top: 9.5rem;
+    }
+}
+

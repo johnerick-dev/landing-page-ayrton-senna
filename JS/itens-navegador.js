@@ -23,7 +23,7 @@ window.onscroll = function() {
         if (prevScrollpos > currentScrollPos) {
             document.querySelector('#ocultar-nav').style.top = "0";
         } else {
-            document.querySelector('#ocultar-nav').style.top = "-190px";
+            document.querySelector('#ocultar-nav').style.top = "-220px";
         }
     prevScrollpos = currentScrollPos;
 }
