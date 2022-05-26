@@ -48,3 +48,11 @@ footer .fab {
     width: 15px;
     height: 15px;
 }
+
+#ocultar-nav {
+    position: fixed;
+    transition: 0.8s;
+}
+#ocultar-nav:hover {
+    background-color: #000;
+  }

@@ -13,5 +13,17 @@ function decidirBotaoScroll() {
         document.querySelector('.botao').style.display = 'block';
     }
 }
-
 window.addEventListener('scroll', decidirBotaoScroll)
+
+//Efeito ocultar nav
+var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.querySelector('#ocultar-nav').style.top = "0";
+        } else {
+            document.querySelector('#ocultar-nav').style.top = "-190px";
+        }
+    prevScrollpos = currentScrollPos;
+}
