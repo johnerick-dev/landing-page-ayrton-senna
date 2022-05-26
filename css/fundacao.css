@@ -1,11 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    max-height: 100vw;
-    height: auto;
 }
 main {
-    max-height: 110vw;
+    height: auto;
     background-color: rgb(230, 230, 230);
 }
 .carousel-instituto {
@@ -22,14 +20,16 @@ main {
     height: auto; 
 }
 .texto-instituto{
-    max-width: 40rem;
+    width: 40rem;
+    height: auto;
     margin: auto;
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     margin-bottom: 3rem;
-    font-size: 12pt;
+    font-size: 14pt;
+    
 }
 
 

@@ -167,4 +167,15 @@
         padding-top: 9.5rem;
     }
 }
-
+/*responsivo da page instituto*/
+@media (max-width: 720px){
+    main section .texto-instituto {
+        width: 85%;
+        height: auto;
+    }
+}
+@media (max-width: 425px){
+    main section .carousel-instituto {
+        margin-top: 7.5rem;
+    }
+}
