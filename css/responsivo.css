@@ -1,4 +1,4 @@
-/*responsivo do index e do nav de todas as pages*/
+/*responsivo do index, do nav e footer de todas as pages*/
 @media (max-width: 1000px){
     .navbar.navbar-dark.bg-dark.fixed-top .container {
         display: flex;
@@ -93,4 +93,32 @@
         padding: 0 20px;
     }
 }
-
+/*responsivo da page videos*/
+@media (max-width: 650px) {
+    section .pista {
+        width: 100vw;
+    }
+    section .pista .lista-carros{
+       display: flex;
+       flex-direction: column;
+    }
+    section .pista .lista-carros .carro-impar img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    section .pista .lista-carros .carro-par img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    section .pista .lista-carros .carro-impar {
+        margin-top: 1rem;
+    }
+    section .pista .lista-carros .carro-par {
+        margin-top: 1rem;
+    }
+    
+}
