@@ -93,7 +93,7 @@
         padding: 0 20px;
     }
 }
-/*responsivo da page videos*/
+/*responsivo da page carros*/
 @media (max-width: 650px) {
     section .pista {
         width: 100vw;
@@ -119,6 +119,51 @@
     }
     section .pista .lista-carros .carro-par {
         margin-top: 1rem;
+    } 
+}
+/*responsivo da page videos*/
+@media (min-width:1001px){
+    main .videos #vid-esquerda1,#vid-esquerda2 {
+        flex-direction: row-reverse;
     }
-    
+    main .videos #vid-esquerda1 p{
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+    }
+    main .videos #vid-esquerda2 p{
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+    }
+}
+@media (max-width: 1000px) {
+    main .videos {
+        width: 100vw;   
+    }
+    main .videos .embed-responsive.embed-responsive-16by9 {
+        flex-direction: column;
+        align-items: center;
+    }
+    main .videos #vid-esquerda1,#vid-esquerda2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.8rem;
+    }
+    main .videos #vid-esquerda1 p{
+        margin-top: 1.2rem;
+    }
+    main .videos #vid-esquerda2 p{
+        margin-top: 1.2rem;
+    }
+    iframe {
+        width: 70%;
+        max-height: auto;
+    }
+}
+@media (max-width: 560px){   
+    iframe {
+        width: 80%;
+        height: auto;
+    }
 }

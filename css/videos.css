@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+
+    height: auto;
+}
 h1 {
     display: flex;
     margin: auto;
@@ -11,8 +19,11 @@ h1 {
 }
 .embed-responsive.embed-responsive-16by9{
     display: flex;
-    width: 80rem;
     margin: auto;
     margin-top: 2rem;
     font-size: 14pt;
+}
+main .videos p{
+    width: 20rem;
+    align-items: end;
 }
