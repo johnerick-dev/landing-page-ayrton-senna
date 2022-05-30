@@ -14,16 +14,12 @@
 
 ### Confira o resultado final acessando https://johnerick-dev.github.io/landing-page-ayrton-senna/
 
-![Imagem do site]()
+![Imagem do site](./imagens/site1.png) <br/>
+![Imagem do site](./imagens/site2.png)
 
-## Visualização do site
-
-<p align="center">
-<img width="650" heidht="auto" src="">
-</p>
-
-## Demonstrando responsividade
+## Demonstração do site
 
 <p align="center">
-<img width="650" heidht="auto" src="">
+<img width="650" heidht="auto" src="./videos/demostrando-site.gif">
 </p>
+
